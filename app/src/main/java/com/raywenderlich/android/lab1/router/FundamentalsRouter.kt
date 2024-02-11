@@ -9,6 +9,8 @@ import androidx.compose.runtime.mutableStateOf
  * Эти объекты должны соответствовать файлам, которые есть в пакете screens
  */
 sealed class Screen {
+
+
     object Navigation : Screen()
     object Text : Screen()
     object TextField : Screen()

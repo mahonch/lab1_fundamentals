@@ -49,6 +49,7 @@ fun NavigationButton(text: String, screen: Screen) {
         onClick = { FundamentalsRouter.navigateTo(screen) }
     ) {
         Text(
+
             text = text,
             color = Color.White
         )
