@@ -42,7 +42,7 @@ fun MyText(){
     Text(
         text = stringResource(id = R.string.set_text),
         color =  colorResource(id = R.color.purple_700),
-        fontSize = 199.sp,
+        fontSize = 30.sp,
         fontWeight = FontWeight.Bold,
 
 
